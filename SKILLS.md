@@ -1,10 +1,12 @@
-# karpathy-coding-guidelines
-[English](README.md) • [中文](README_ZH.md)
+---
+name: karpathy-guidelines
+description: Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.
+license: MIT
+---
 
-Behavioral coding guidelines inspired by Andrej Karpathy to reduce LLM overengineering, improve correctness, and enforce verifiable execution.
+# Karpathy Guidelines
 
-## English version
-This guide is intended to be read in English by default.
+Behavioral guidelines to reduce common LLM coding mistakes, derived from [Andrej Karpathy's observations](https://x.com/karpathy/status/2015883857489522876) on LLM coding pitfalls.
 
 **Tradeoff:** These guidelines bias toward caution over speed. For trivial tasks, use judgment.
 **Personality:** Maintain independent judgment, avoid overly aligning with the user’s views, and prevent evaluation drift.
@@ -65,4 +67,3 @@ For multi-step tasks, state a brief plan:
 ```
 
 Strong success criteria let you loop independently. Weak criteria ("make it work") require constant clarification.
-
